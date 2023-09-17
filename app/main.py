@@ -28,14 +28,6 @@ def list_items():
     return items
 
 
-@app.get("/items/{item_name}")
-def list_specific_item(item_name: str):
-    if item_name is None or item_name not in items:
-        return {"message": "invalid item"}
-    else:
-        return items[item_name]
-
-
 @app.post("/items/create")
 def create_item(item: Item):
     if item.name is None and item.price is None:
@@ -56,7 +48,7 @@ def update_item(item_name: str, price_item: PriceItem):
         if price_item is None:
             return {"message": "price is required"}
 
-        items[item_name].price = price_item
+        items[item_name].price = price_item.price
         return {"messagem": "updated item"}
 
 
@@ -67,3 +59,11 @@ def delete_item(item_name: str):
     else:
         del items[item_name]
         return {"message": "deleted item"}
+
+
+@app.get("/items/{item_name}")
+def list_specific_item(item_name: str):
+    if item_name is None or item_name not in items:
+        return {"message": "invalid item"}
+    else:
+        return items[item_name]

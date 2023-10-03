@@ -54,3 +54,17 @@ method: GET, query param: , path params: {} received at 2023-10-03 16:16:33.4103
 method: POST, query param: , path params: {} received at 2023-10-03 16:16:42.490539, url: http://127.0.0.1:8000/items/create
 method: POST, query param: , path params: {} received at 2023-10-03 16:17:03.499016, url: http://127.0.0.1:8000/items/create
 method: POST, query param: , path params: {} received at 2023-10-03 16:17:15.711383, url: http://127.0.0.1:8000/items/create
+method: POST, query param: , path params: {} received at 2023-10-03 17:21:49.809218, url: http://127.0.0.1:8000/items/create
+method: GET, query param: , path params: {} received at 2023-10-03 17:21:55.850561, url: http://127.0.0.1:8000/items
+method: GET, query param: , path params: {} received at 2023-10-03 17:22:14.173420, url: http://127.0.0.1:8000/items/7bae6166-622a-11ee-960c-706979ad68bd
+method: GET, query param: , path params: {} received at 2023-10-03 17:26:57.138160, url: http://127.0.0.1:8000/docs
+method: GET, query param: , path params: {} received at 2023-10-03 17:26:57.422148, url: http://127.0.0.1:8000/openapi.json
+method: POST, query param: , path params: {} received at 2023-10-03 17:27:13.233182, url: http://127.0.0.1:8000/items/create
+method: GET, query param: , path params: {} received at 2023-10-03 17:27:19.154090, url: http://127.0.0.1:8000/items
+method: DELETE, query param: , path params: {} received at 2023-10-03 17:27:35.723047, url: http://127.0.0.1:8000/items/delete/3c72dd8b-622b-11ee-97a6-706979ad68bd
+method: GET, query param: , path params: {} received at 2023-10-03 17:27:48.687343, url: http://127.0.0.1:8000/items/3c72dd8b-622b-11ee-97a6-706979ad68bd
+method: POST, query param: , path params: {} received at 2023-10-03 17:29:06.116904, url: http://127.0.0.1:8000/items/create
+method: GET, query param: , path params: {} received at 2023-10-03 17:29:28.400950, url: http://127.0.0.1:8000/items
+method: GET, query param: , path params: {} received at 2023-10-03 17:40:24.258368, url: http://127.0.0.1:8000/items
+method: POST, query param: , path params: {} received at 2023-10-03 17:40:33.684892, url: http://127.0.0.1:8000/items/create
+method: GET, query param: , path params: {} received at 2023-10-03 17:40:35.652033, url: http://127.0.0.1:8000/items

@@ -1,0 +1,4 @@
+item name: pato, item price: 23.0, created at 2023-10-03 15:19:25.333775 
+item name: chocolate, item price: 2300.0, created at 2023-10-03 15:37:20.212192 
+item name: pax, item price: 12.0, created at 2023-10-03 16:09:57.434189 
+item name: pas, item price: 20.0, created at 2023-10-03 16:17:15.717556 

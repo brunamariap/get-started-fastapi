@@ -1,0 +1,14 @@
+[
+    {
+        "name": "pasta",
+        "price": 13.90
+    },
+    {
+        "name": "macarrão",
+        "price": 12
+    },
+    {
+        "name": "bolo",
+        "price": 25.80
+    }
+]
